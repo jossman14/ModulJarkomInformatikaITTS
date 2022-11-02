@@ -6,7 +6,6 @@
 iptables-legacy -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s NID_DMZ
 iptables-legacy -t nat -A POSTROUTING -o eth0 -j MASQUERADE -s 192.168.0.0/16
 ```
-3. Ketika ingin mengakses internet pastikan sudah mengexport proxy terlebih dahulu. **syntaxnya cek modul pengenalan UML** .
 
 # 1. DNS (Domain Name System)
 
