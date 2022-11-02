@@ -261,6 +261,7 @@ Maka yang harus dilakukan Adi adalah:
     </Directory>
 ```    
 agar folder **download** menampilkan isi folder.
+
     
 <img src=https://i.postimg.cc/BvQw1VBR/image.png/>
     
@@ -268,7 +269,8 @@ agar folder **download** menampilkan isi folder.
 
 ***2.3*** - Buka monx dan akses **http://jarkomitts.com/download** dengan curl
 
-<img src=https://i.postimg.cc/W3JRhy2T/image.png/>
+
+<img src=https://i.postimg.cc/W3JRhy2T/image.png />
 
 
 **Keterangan**:
