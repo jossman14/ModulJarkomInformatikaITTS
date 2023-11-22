@@ -4,9 +4,9 @@
 
 Berikut adalah topologi jaringan yang akan digunakan pada modul 3.
 
-![image1.png](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image1.png?raw=true)
+![image1.png](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image1.png?raw=true)
 
-![image2.png](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image2.png?raw=true)
+![image2.png](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image2.png?raw=true)
 
 1. Hapus terlebih dahulu file UML yang tidak diperlukan bekas praktikum kemarin
 
@@ -40,11 +40,11 @@ Berikut adalah topologi jaringan yang akan digunakan pada modul 3.
    - Memori client **Walx**, **Monx**, dan **Zonx** adalah **64M**
    - Memori router **Dzul** adalah **256M** karena akan menjadi DHCP Server.
    - Memori server **Aldx** dan **Ardx** adalah **128M** karena akan menjadi DNS Server dan Proxy server.
-3. Langkah-langkah selengkapnya silahkan mengikuti panduan membuat UML pada [Modul Pengenalan UML](https://github.com/aldonesia/ModulJarkomInformatikaITTS/tree/modul-1/modul1.5).
+3. Langkah-langkah selengkapnya silahkan mengikuti panduan membuat UML pada [Modul Pengenalan UML](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-1/modul1.5).
 
 ## 2. Konfigurasi Interface
 
-Konfigurasi interface sama seperti [Modul Pengenalan UML](https://github.com/aldonesia/ModulJarkomInformatikaITTS/tree/modul-1/modul1.5), dengan tambahan:
+Konfigurasi interface sama seperti [Modul Pengenalan UML](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-1/modul1.5), dengan tambahan:
 
 - Zonx (Sebagai Client)
 

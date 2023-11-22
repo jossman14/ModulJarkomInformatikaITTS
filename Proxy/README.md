@@ -6,7 +6,7 @@
 
 Proxy server adalah sebuah server atau program komputer yang berperan sebagai penghubung antara suatu komputer dengan jaringan internet. Atau dalam kata lain, proxy server adalah suatu jaringan yang menjadi perantara antara jaringan lokal dan jaringan internet.
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image32.jpeg?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image32.jpeg?raw=true)
 
 Proxy server dapat berupa suatu sistem komputer ataupun sebuah aplikasi yang bertugas menjadi gateway atau pintu masuk yang menghubungan komputer kita dengan jaringan luar.
 
@@ -37,7 +37,7 @@ Beberapa contoh software proxy server yang sering digunakan adalah sebagai berik
 
 ### 2.1.5 Cara Kerja Squid
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image33.gif?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image33.gif?raw=true)
 
 ## 2.2 Implementasi
 
@@ -51,7 +51,7 @@ Untuk praktikum jarkom kali ini, software proxy server yang digunakan adalah **S
 apt-get install squid
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image34.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image34.png?raw=true)
 
 **STEP 2** - Cek status squid untuk memastikan bahwa Squid telah berjalan dengan baik dengan mengetikkan
 
@@ -59,7 +59,7 @@ apt-get install squid
 service squid status
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image35.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image35.png?raw=true)
 
 Jika muncul status **ok** maka instalasi telah berhasil.
 
@@ -71,7 +71,7 @@ Jika muncul status **ok** maka instalasi telah berhasil.
 mv /etc/squid/squid.conf /etc/squid/squid.conf.bak
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image36.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image36.png?raw=true)
 
 **STEP 2** - Buat konfigurasi baru dengan mengetikkan:
 
@@ -79,7 +79,7 @@ mv /etc/squid/squid.conf /etc/squid/squid.conf.bak
 nano /etc/squid/squid.conf
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image37.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image37.png?raw=true)
 
 **STEP 3** - Kemudian, pada file config yang baru, ketikkan script:
 
@@ -88,7 +88,7 @@ http_port 8080
 visible_hostname Ardx
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image38.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image38.png?raw=true)
 
 **Keterangan:**
 
@@ -101,7 +101,7 @@ visible_hostname Ardx
 service squid restart
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image39.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image39.png?raw=true)
 
 **STEP 5** - Ubah pengaturan proxy browser. Gunakan **IP Ardx** sebagai host dan isikan port **8080**. Kemudian cobalah untuk mengakses web http://ittelkom-sby.ac.id (usahakan menggunakan mode **incognito/private**).
 
@@ -143,7 +143,7 @@ nano /etc/squid/squid.conf
 http_access allow all
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image42.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image42.png?raw=true)
 
 **Keterangan:**
 
@@ -164,7 +164,7 @@ Seharusnya halaman yang ditampilkan kembali normal.
 apt-get install apache2-utils
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image44.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image44.png?raw=true)
 
 **STEP 2** - Buat user dan password baru. Ketikkan:
 
@@ -174,11 +174,11 @@ htpasswd -c /etc/squid/passwd jarkom85
 //username jarkom85
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image45.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image45.png?raw=true)
 
 Ketikkan password yang diinginkan. Jika sudah maka akan muncul notifikasi:
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image46.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image46.png?raw=true)
 
 **STEP 3** - Edit konfigurasi squid menjadi:
 
@@ -195,7 +195,7 @@ acl USERS proxy_auth REQUIRED
 http_access allow USERS
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image47.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image47.png?raw=true)
 
 **Keterangan:**
 
@@ -250,7 +250,7 @@ Kita akan mencoba membatasi akses proxy pada hari dan jam tertentu. Asumsikan pr
 nano /etc/squid/acl.conf
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image49.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image49.png?raw=true)
 
 **STEP 2** - Tambahkan baris berikut
 
@@ -258,7 +258,7 @@ nano /etc/squid/acl.conf
 acl KERJA time MTWHF 08:00-20:00
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image50.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image50.png?raw=true)
 
 **STEP 3** - Simpan file **acl.conf**.
 
@@ -279,13 +279,13 @@ http_access deny all
 visible_hostname Ardx
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image51.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image51.png?raw=true)
 
 **STEP 6** - Simpan file tersebut. Kemudian restart squid.
 
 **STEP 7** - Cobalah untuk mengakses web **http://ittelkom-sby.ac.id** (usahakan menggunakan mode **incognito/private**). Akan muncul halaman error jika mengakses diluar waktu yang telah ditentukan.
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image52.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image52.png?raw=true)
 
 Keterangan:
 
@@ -302,7 +302,7 @@ Kita akan mencoba membatasi akses ke beberapa website. Untuk contoh disini, kita
 nano /etc/squid/bad-sites.acl
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image53.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image53.png?raw=true)
 
 **STEP 2** - Tambahkan alamat url yang akan diblock seperti baris berikut:
 
@@ -310,7 +310,7 @@ nano /etc/squid/bad-sites.acl
 elearning.ittelkom-sby.ac.id
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image54.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image54.png?raw=true)
 
 **STEP 3** - Ubah file konfigurasi squid menjadi seperti berikut ini.
 
@@ -323,11 +323,11 @@ http_access deny BLACKLISTS
 http_access allow all
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image55.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image55.png?raw=true)
 
 **STEP 4** - Restart squid. Kemudian cobalah untuk mengakses web **elearning.ittelkom-sby.ac.id** (usahakan menggunakan mode **incognito/private**). Seharusnya muncul halaman error seperti di bawah ini.
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image56.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image56.png?raw=true)
 
 Keterangan:
 
@@ -343,7 +343,7 @@ Kita akan mencoba untuk membatasi bandwidth yang akan diberikan kepada user prox
 nano /etc/squid/acl-bandwidth.conf
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image57.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image57.png?raw=true)
 
 **STEP 2** - Ketikkan baris berikut
 
@@ -354,7 +354,7 @@ delay_access 1 allow all
 delay_parameters 1 16000/64000
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image58.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image58.png?raw=true)
 
 **STEP 3** - Ubah konfigurasi squid menjadi:
 
@@ -366,7 +366,7 @@ visible_hostname Ardx
 http_access allow all
 ```
 
-![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image59.png?raw=true)
+![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image59.png?raw=true)
 
 **STEP 4** - Restart Squid
 
@@ -374,7 +374,7 @@ http_access allow all
 
 |                                               Sebelum                                               |                                               Setelah                                               |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| ![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image60.png?raw=true) | ![jpeg](https://github.com/aldonesia/ModulJarkomInformatikaITTS/blob/modul-3/img/image61.png?raw=true) |
+| ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image60.png?raw=true) | ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image61.png?raw=true) |
 
 Keterangan:
 
