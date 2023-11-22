@@ -70,7 +70,7 @@ curl 'ip-ardx'
 
 ## E. Instalasi PHP
 
-**STEP 1** - Buka uml **Ardx** dan jalankan perintah
+**STEP 1** - Buka uml **Ardx** dan jalankan perintah (pastikan menggunakan php7.4, kalau sudah terlanjur terinstall php8 maka uninstall `apt-get remove php* ` jangan lupa tanda bintang * setelah php)
 
 ```shell
 apt-get install wget -y
@@ -159,9 +159,7 @@ c. Folder tempat website
 
 **STEP 4** - Pindah ke folder tempat website pada file konfigurasi default yaitu **/var/www/html** dan buat file **index.php** yang berisi
 
-    `<?php
-        phpinfo();
-    ?>`
+    `<?php         phpinfo();     ?>`
 
 **STEP 5** - Buka uml monx dan akses alamat dengan curl **http://[IP Ardx]/index.php**
 
@@ -207,9 +205,7 @@ Atau bisa ketikkan langsung `a2ensite (namafile)`
 
 **STEP 7** - Masuk ke folder **web-8080** dan buat file **index.php** yang berisi
 
-    `<?php
-        echo "Halo ini port 8080 loo";
-    ?>`
+    `<?php         echo "Halo ini port 8080 loo";     ?>`
 
 <img src=https://i.postimg.cc/j5nTPmdM/image.png />
 
@@ -254,9 +250,7 @@ agar dapat mengakses**www.jarkomitts.com**
 
 **STEP 6** - Buat file **index.php** dengan isi file
 
-    `<?php
-        echo "Semangat Jarkom Gaes";
-    ?>`
+    `<?php         echo "Semangat Jarkom Gaes";     ?>`
 
 <img src=https://i.postimg.cc/BbzfbGFS/image.png/>
 
@@ -402,9 +396,7 @@ Maka yang dilakukan adalah
 
 **STEP 2** - Buat file aboutus.php dengan isi
 
-    `<?php
-        echo "Terima Kasih telah mengunjungi about us";
-    ?>`
+    `<?php         echo "Terima Kasih telah mengunjungi about us";     ?>`
 
 **STEP 3** - Pindah ke folder **/etc/apache2/sites-available** kemudian buka file **jarkomitts.com** dan tambahkan
 
@@ -476,6 +468,6 @@ Gambar diatas ketika pengguna **memiliki ip nid 10.151.252.0/22**
 - Untuk download halaman web `wget 10.151.36.5/makanmakan.tar.xz`
 - Untuk nomor 3, xxx diisi dengan nama kelompok.
 
-## `<center>`MODUL DNS DAN WEB SERVER SELESAI`</center>`
+## `<center>`MODUL DNS DAN WEB SERVER SELESAI `</center>`
 
 ## `<center>`Selamat Menunggu Soal Shift :)`</center>`
