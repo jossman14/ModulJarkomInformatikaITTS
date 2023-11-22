@@ -283,9 +283,9 @@ visible_hostname Ardx
 
 **STEP 6** - Simpan file tersebut. Kemudian restart squid.
 
-**STEP 7** - Cobalah untuk mengakses web **http://ittelkom-sby.ac.id** (usahakan menggunakan mode **incognito/private**). Akan muncul halaman error jika mengakses diluar waktu yang telah ditentukan.
+**STEP 7** - Cobalah untuk mengakses `curl www.google.com`. Akan muncul halaman error jika mengakses diluar waktu yang telah ditentukan.
 
-![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image52.png?raw=true)
+![1700630013558](image/README/1700630013558.png)
 
 Keterangan:
 
@@ -325,9 +325,9 @@ http_access allow all
 
 ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image55.png?raw=true)
 
-**STEP 4** - Restart squid. Kemudian cobalah untuk mengakses web **elearning.ittelkom-sby.ac.id** (usahakan menggunakan mode **incognito/private**). Seharusnya muncul halaman error seperti di bawah ini.
+**STEP 4** - Restart squid. Kemudian cobalah untuk mengakses `curl elearning.ittelkom-sby.ac.id`
 
-![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image56.png?raw=true)
+![1700630720838](image/README/1700630720838.png)
 
 Keterangan:
 
@@ -336,6 +336,8 @@ Keterangan:
 ### 2.2.6 Pembatasan Bandwidth
 
 Kita akan mencoba untuk membatasi bandwidth yang akan diberikan kepada user proxy. Untuk contoh disini kita akan membatasi penggunaannya maksimal 512 kbps.
+
+**STEP 0** - Install speedtest apt-get install speedtest-cli. kemudian run ` speedtest-cli`
 
 **STEP 1** - Buat file bernama **acl-bandwidth.conf** di folder squid
 
@@ -354,6 +356,13 @@ delay_access 1 allow all
 delay_parameters 1 16000/64000
 ```
 
+
+
+1. `delay_pools 1`: Ini menentukan jumlah 'delay pools' (kelompok penundaan) yang akan digunakan. Angka '1' di sini menunjukkan bahwa hanya satu kelompok penundaan yang akan diatur. Delay pools digunakan untuk mengelola dan membatasi penggunaan bandwidth.
+2. `delay_class 1 1`: Ini menetapkan kelas dari delay pool pertama. Squid memiliki tiga kelas delay pool, dengan '1' sebagai kelas paling sederhana. Kelas 1 memungkinkan Anda mengatur batas bandwidth secara keseluruhan untuk semua pengguna atau alamat IP yang dicakup oleh pool ini.
+3. `delay_access 1 allow all`: Ini mendefinisikan aturan akses untuk delay pool. Dalam hal ini, 'delay_access 1' menunjukkan aturan untuk delay pool nomor 1, dan 'allow all' berarti aturan ini berlaku untuk semua pengguna atau permintaan. Ini berarti tidak ada pembatasan khusus terhadap pengguna mana yang terpengaruh oleh aturan ini.
+4. `delay_parameters 1 16000/64000`: Ini adalah parameter kunci yang menetapkan batasan bandwidth. 'delay_parameters 1' menunjukkan bahwa parameter ini diterapkan pada delay pool pertama. '16000/64000' merupakan dua angka yang dipisahkan oleh garis miring. Angka pertama (16000) adalah batas bandwidth 'aggregate' (total) dalam bytes per detik untuk semua pengguna atau koneksi dalam pool ini. Angka kedua (64000) adalah batas maksimum bandwidth yang dapat digunakan oleh setiap pengguna atau koneksi individual dalam pool tersebut. Jadi, secara total, delay pool ini dapat menggunakan hingga 16 KB/detik, dengan setiap pengguna atau koneksi dibatasi maksimum 64 KB/detik.
+
 ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image58.png?raw=true)
 
 **STEP 3** - Ubah konfigurasi squid menjadi:
@@ -370,11 +379,11 @@ http_access allow all
 
 **STEP 4** - Restart Squid
 
-**STEP 5** - Cobalah untuk melakukan speed test. Berikut perbedaan sebelum dan sesudah adanya pembatasan bandwidth saat melakukan speed test
+**STEP 5** - Cobalah untuk melakukan speed test dengan ` speedtest-cli` . Berikut perbedaan sebelum dan sesudah adanya pembatasan bandwidth saat melakukan speed test
 
-|                                               Sebelum                                               |                                               Setelah                                               |
-| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image60.png?raw=true) | ![jpeg](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image61.png?raw=true) |
+|                                                                                        Sebelum                                                                                        |                    Setelah                    |
+| :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------: |
+| ![1700632029479](https://file+.vscode-resource.vscode-cdn.net/d%3A/Materi%20Random/Materi/Jaringan%20Komputer/Praktikum/ModulJarkomInformatikaITTS/Proxy/image/README/1700632029479.png) | ![1700632211672](image/README/1700632211672.png) |
 
 Keterangan:
 
