@@ -110,7 +110,6 @@ NID_DMZ_tiap_kelompok    : 192.168.(150 + no urut absen).1 -> contoh no urut abs
 
 ```
 
-
 #### Dzul (Sebagai Router)
 
 ```pascal
@@ -190,7 +189,7 @@ gateway 192.168.0.1
   12. Coba cek IP pada setiap UML dengan mengetikkan `ifconfig`. Jika sudah mendapatkan IP seperti gambar di bawah, maka setting IP yang kalian lakukan sudah benar
 
       <img src="assets\BG10.png" alt="BG10" style="zoom:67%;" />
-  13. Topologi yang dibuat sudah bisa berjalan secara lokal, tetapi kita belum bisa mengakses jaringan keluar. Ketikkan **`iptables-legacy –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16`** dan `iptables-legacy –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s NID_DMZ_tiap_kelompok/16` pada router Dzul.
+  13. Topologi yang dibuat sudah bisa berjalan secara lokal, tetapi kita belum bisa mengakses jaringan keluar. Ketikkan **`iptables-legacy –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.0.0/16`** dan `iptables-legacy –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s NID_DMZ_tiap_kelompok/16` contoh `iptables-legacy –t nat –A POSTROUTING –o eth0 –j MASQUERADE –s 192.168.164.0/16` pada router Dzul.
 
       <img src="assets\BG11.png" alt="BG11" style="zoom:67%;" />
 
