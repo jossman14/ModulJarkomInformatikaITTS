@@ -36,6 +36,12 @@ Modul ini membahas membahas konsep routing dan bagaimana data bergerak melalui j
 
 Modul ini membahas tentang Firewall dan bagaimana menggunakannya untuk meningkatkan keamanan jaringan.
 
+---
+
+## [Template Laporan](https://docs.google.com/document/d/1NOQnsMjPfbUTONeGh0NiIEvDE5TuIFTc/edit?usp=drive_link&ouid=111243942806799863683&rtpof=true&sd=true)
+
+Template laporan praktikum dapat diakses melalui [link ini](https://docs.google.com/document/d/1NOQnsMjPfbUTONeGh0NiIEvDE5TuIFTc/edit?usp=drive_link&ouid=111243942806799863683&rtpof=true&sd=true)
+
 ## Kontribusi
 
 Kami mendorong kontribusi untuk meningkatkan dan memperluas materi yang ada. Jika Anda ingin berkontribusi, silakan lakukan pull request.
