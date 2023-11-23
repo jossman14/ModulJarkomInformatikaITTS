@@ -459,15 +459,7 @@ Gambar diatas ketika pengguna **memiliki ip nid 10.151.252.0/22**
 
 ### 4. Latihan
 
-1. Download halaman MakanMakan di 10.151.36.5/MakanMakan
-2. Buat domain baru dengan nama ayomakan.xxx.id untuk membuka halaman tersebut
-3. Atur agar jika kalian mengetikkan ayomakan.xxx.id Web MakanMakan dapat terbuka
+1. Dokumentasikan setiap langkah yang Anda lakukan, termasuk screenshot dari proses konfigurasi dan hasil pengujian.
+2. Unggah dokumentasi ke platform yang ditentukan oleh pengajar
 
-#### Catatan
-
-- Untuk download halaman web `wget 10.151.36.5/makanmakan.tar.xz`
-- Untuk nomor 3, xxx diisi dengan nama kelompok.
-
-## `<center>`MODUL DNS DAN WEB SERVER SELESAI `</center>`
-
-## `<center>`Selamat Menunggu Soal Shift :)`</center>`
+## MODUL DNS DAN WEB SERVER SELESAI
