@@ -2,32 +2,26 @@
 
 **Praktikum Jaringan Komputer**
 
-------
+---
 
 ## Pengenalan Dasar Dasar CLI
 
-------
+---
 
 ### Apa itu CLI?
 
 **CLI** adalah akronim dari **C**ommand **L**ine **I**nterface. Dengan program ini, user bisa mengetikkan perintah dalam bentuk teks dan memberikan instruksi pada komputer untuk mengerjakan tugas tertentu. CLI adalah program yang berguna untuk melakukan perintah input dari keyboard, kemudian perintah dipanggil pada prompt, lalu dijalankan oleh komputer. Tiap sistem oprasi memiliki nama yang berbeda-beda untuk CLI-nya. Pada Unix disebut bash, ash, dsb. Pada MS-DOS dinamakan Command Promopt. Pada Apple namanya adalah Command Shell. Pada Microsoft dinamakan PowerShell sedangkan penggunaan Linux menyebutnya terminal. Pada modul ini kita akan mempelajari tentang CLI pada Linux.
 
-
-
 ### Fitur CLI
 
 1. **Kemampuan script**, memungkinkan pengguna untuk menulis program yang dapat dijalankan pada sistem baris perintah
-2. **Pipe Command**, berfungsi agar pengguna dapat mengarahkan output dari satu program menjadi input untuk program lain. 
+2. **Pipe Command**, berfungsi agar pengguna dapat mengarahkan output dari satu program menjadi input untuk program lain.
 3. **Variabel Sistem**, dapat diatur pada baris perintah, atau nilai variabel dapat ditampilkan
 4. **Command History**, memungkinkan pengguna untuk mengingat perintah sebelumnya yang sudah dikeluarkan. Selain itu, fitur ini juga berfungsi untuk menyimpan riwayat (history) perintah untuk sesi (seperti PowerShell), yang lain dapat dikonfigurasi untuk menyimpan riwayat sesi lebih lama.
-
-
 
 ### Sistem Kerja CLI
 
 Saat sistem komputer berjalan, CLI-nya terbuka di layar kosong dengan prompt perintah dan Anda dapat memasukkan perintah.
-
-
 
 Jenis-jenis perintah CLI adalah:
 
@@ -35,8 +29,6 @@ Jenis-jenis perintah CLI adalah:
 - Program yang dapat dieksekusi, ketika perintah berhasil dipanggil, kemudian menjalankan aplikasi berbasis teks atau grafis.
 - Berikutnya adalah program *batch* atau file batch/shell script.
 - Program ini merupakan file teks yang mencantumkan urutan perintah. Ketika berhasil dipanggil, program batch akan menjalankan perintah dan akhirnya program dapat dieksekusi.
-
-
 
 ### Macam-macam Command pada CLI
 
@@ -250,6 +242,15 @@ apt-get install sl
 
 ![20_cli_aptget_install](assets/20_cli_aptget_install.jpeg)
 
-------
+---
+
+## Latihan
+
+1. Buat sebuah  direktori yang menggambarkan struktur organisasi prodi anda.
+2. Dalam setiap direktori, buat file teks yang berisi informasi terkait (misalnya: "AnggotaTim.txt", "Proyek.txt").
+3. Kelola izin dan pemilik file sesuai kebutuhan.
+4. Buat script sederhana menggunakan nano yang menjalankan beberapa perintah CLI secara berurutan.
+
+---
 
 ## Thank You
