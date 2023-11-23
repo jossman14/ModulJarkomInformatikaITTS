@@ -219,3 +219,38 @@ gateway 192.168.0.1
 16. Simpan script yang sudah dibuat kemudian jalankan dengan mengetikkan `bash bye.sh`
 
     <img src="assets\BG13.png" alt="BG13" style="zoom: 80%;" />
+
+------
+
+## Latihan 
+
+
+
+### Setup Environment:
+- Install VirtualBox dan import image yang telah disediakan.
+- Persiapkan lingkungan kerja UML sesuai dengan petunjuk yang ada di modul.
+
+### Pembuatan Topologi:
+- Buatlah topologi jaringan sesuai dengan yang ada di modul menggunakan UML.
+- Setiap peserta praktikum harus membuat script `topologi.sh` sendiri.
+- Pastikan semua UML (router, switch, klien, server) berjalan sesuai dengan konfigurasi topologi.
+
+### Konfigurasi Jaringan:
+- Lakukan konfigurasi jaringan pada setiap UML sesuai dengan petunjuk modul.
+- Pastikan semua UML mendapatkan IP yang sesuai dan dapat berkomunikasi sesuai topologi yang dibuat.
+
+### Pengujian dan Troubleshooting:
+- Lakukan pengujian jaringan dengan melakukan ping antar UML.
+- Pastikan UML dapat mengakses jaringan luar (misalnya dengan ping ke google.com).
+- Jika ada masalah, lakukan troubleshooting dengan mengecek konfigurasi dan setting jaringan pada setiap UML.
+
+### Iptables dan NAT:
+- Pada router, konfigurasikan iptables untuk NAT sehingga semua UML dapat mengakses internet.
+- Lakukan pengujian untuk memastikan iptables telah dikonfigurasi dengan benar.
+
+## Dokumentasi:
+- Buatlah dokumentasi selama melakukan praktikum, termasuk langkah-langkah yang diambil, permasalahan yang dihadapi, dan solusi yang diberikan.
+
+## Tugas
+- Setelah selesai, setiap peserta harus menyerahkan dokumentasi praktikum yang mencakup semua langkah-langkah di atas.
+- Pastikan untuk memberikan screenshot pada setiap langkah penting sebagai bukti bahwa praktikum telah dilakukan.
