@@ -8,16 +8,7 @@ Berikut adalah topologi jaringan yang akan digunakan pada modul 3.
 
 ![image2.png](https://github.com/jossman14/ModulJarkomInformatikaITTS/blob/modul-3/img/image2.png?raw=true)
 
-1. Hapus terlebih dahulu file UML yang tidak diperlukan bekas praktikum kemarin
-
-   ```
-   rm Dzul Vessa Alqis Walx Monx Aldx Ardx
-   ```
-
-   Himbauan!!!
-
-   - Jangan coba-coba melakukan `rm *` karena akan menghapus semuanya, termasuk file jarkom. Jika file tersebut terhapus, segera hubungi asisten.
-2. Sesuaikan script `topologi.sh` dengan gambar topologi di atas dengan tambahan ketentuan sebagai berikut:
+1. Sesuaikan script `topologi.sh` dengan gambar topologi di atas dengan tambahan ketentuan sebagai berikut:
 
    ```
    # Switch
