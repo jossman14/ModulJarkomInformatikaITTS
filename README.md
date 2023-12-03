@@ -24,7 +24,7 @@ Modul ini membahas tentang [Domain Name System (DNS)](https://github.com/jossman
 
 Modul ini membahas [Dynamic Host Configuration Protocol (DHCP)](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-3/DHCP-Server) dan penggunaan [Proxy](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-3/Proxy) dalam jaringan.
 
-### [Modul 4: Modul Subnetting](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-4) (In Development)
+### [Modul 4: Modul Subnetting](https://github.com/jossman14/ModulJarkomInformatikaITTS/tree/modul-4)
 
 Modul ini membahas cara membagi jaringan menjadi subnetwork yang lebih kecil dengan teknik subnetting.
 
