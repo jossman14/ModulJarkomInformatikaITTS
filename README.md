@@ -2,7 +2,7 @@
 
 ## **Unduh Router OS Image:**
 
-- Unduh gambar Router OS dari https://download.mikrotik.com/routeros/6.49.10/mikrotik-6.49.10.iso
+- Unduh gambar Router OS dari [https://download.mikrotik.com/routeros/6.49.10/mikrotik-6.49.10.iso](https://dl18.nesabamedia.net/windows/routeros/RouterOS.6.33.NesabaMedia.iso)
 
 ## **Unduh Winbox:**
 
