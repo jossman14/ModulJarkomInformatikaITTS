@@ -11,8 +11,9 @@
 ## **Instal Image Router OS di Virtual Box:**
 
 - Buka Virtual Box.
-- Pilih "File" -> "Import Appliance".
+- Pilih "New".
 - Pilih file ISO Router OS yang telah diunduh.
+- Pilih version Unknown/64 bit
 - Sesuaikan pengaturan RAM sesuai kebutuhan.
 - Atur ukuran harddisk sesuai kebutuhan.
 - Klik "Finish" untuk menyelesaikan proses impor.
@@ -37,7 +38,7 @@
 - Tutup OS terlebih dahulu untuk mengkonfigurasi antarmuka jaringan.
 - Buka pengaturan mesin virtual.
 - Pilih "Network" dan sesuaikan "Adapter 1" dengan NAT.
-- Sesuaikan "Adapter 2" dengan Internal Network.
+- Sesuaikan "Adapter 2" dengan Internal Network. Isi kolom dibawahnya dengan "ether2-client"
 - Sesuaikan "Adapter 3" dengan Host-Only.
 
 ## **Jalankan WinBox:**
