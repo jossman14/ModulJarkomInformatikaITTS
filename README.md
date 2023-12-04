@@ -14,8 +14,8 @@
 - Pilih "New".
 - Pilih file ISO Router OS yang telah diunduh.
 - Pilih version Unknown/64 bit
-- Sesuaikan pengaturan RAM sesuai kebutuhan.
-- Atur ukuran harddisk sesuai kebutuhan.
+- Sesuaikan pengaturan RAM sesuai kebutuhan 128 MB.
+- Atur ukuran harddisk sesuai kebutuhan 256 MB.
 - Klik "Finish" untuk menyelesaikan proses impor.
 
 ## **Mulai OS:**
@@ -30,7 +30,7 @@
 
 ## **Eject (Unmount) File ISO:**
 
-- Setelah instalasi selesai, klik kanan pada CD/DVD drive dan pilih "Eject".
+- Setelah instalasi selesai, klik kanan pada CD/DVD drive (bawah pojok kanan, urutan ke dua dari kiri, gambar cd/dvd) dan pilih "Eject".
 - Jika muncul pop-up, pilih "Force unmount".
 
 ## **Konfigurasi Jaringan:**
