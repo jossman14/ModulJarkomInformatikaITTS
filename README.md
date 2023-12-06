@@ -45,4 +45,5 @@
 
 - Setelah konfigurasi jaringan selesai, jalankan aplikasi WinBox untuk mengelola Router OS.
   
-## **Tutorial Video : [Lihat Video]([https://dl18.nesabamedia.net/windows/routeros/RouterOS.6.33.NesabaMedia.iso](https://drive.google.com/file/d/1lUq3c9F7FxQLkL8FcAwLkjOgCsadUrb8/view?usp=sharing)https://drive.google.com/file/d/1lUq3c9F7FxQLkL8FcAwLkjOgCsadUrb8/view?usp=sharing)**
+## **Tutorial Video : [Lihat Video](https://drive.google.com/file/d/1lUq3c9F7FxQLkL8FcAwLkjOgCsadUrb8/view?usp=sharing)https://drive.google.com/file/d/1lUq3c9F7FxQLkL8FcAwLkjOgCsadUrb8/view?usp=sharing)**
+
